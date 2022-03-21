@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "lib": ["dom", "es2017"],
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "baseUrl": ".",
+        "typeRoots": ["node_modules/@types", "src/types"],
+        "types": ["react", "node", "jest", "circomlibjs", "next-auth", "cors"]
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "target": "esnext",
+            "module": "commonjs"
+        }
+    },
+    "exclude": ["node_modules"],
+    "include": ["**/*.d.ts", "**/*.ts", "*.ts", "**/*.tsx", "*.config.ts", "src/types"]
+}

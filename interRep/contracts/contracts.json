@@ -1,0 +1,7 @@
+{
+    "network" : "ropsten",
+    "verifier" : "0x9020A5e0488898E9f23E3c5E258E54026E3008ac",
+    "Poseidon" : "0xEB36ef76540f1a9f9599586945d14Eeb1Cd8576E",
+    "IncrementalBinaryTree" : "0x0d40E479ddaF4426AbF4eC21F591E441d0eACD67",
+    "Interep" : "0x70Ca414af6bB03E82bB1573B2E0Ef6291968526E"
+}
